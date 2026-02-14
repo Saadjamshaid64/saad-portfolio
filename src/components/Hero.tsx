@@ -16,7 +16,7 @@ const Hero = () => {
           Full Stack Developer
         </p>
         <h1 className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold leading-tight mb-6 animate-fade-up delay-100">
-          John <span className="text-gradient">Doe</span>
+          Saad <span className="text-gradient">Jamshaid</span>
         </h1>
         <p className="text-hero-muted text-lg md:text-xl max-w-2xl mx-auto mb-10 animate-fade-up delay-200">
           I craft clean, scalable web experiences with modern technologies.

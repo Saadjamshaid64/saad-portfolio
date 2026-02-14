@@ -2,12 +2,12 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
-    title: "E-Commerce Platform",
+    title: "Blood Group Prediction using Finger Print Analysis",
     description:
-      "A full-featured online store with cart, checkout, payment integration, and admin dashboard.",
-    tech: ["React", "Node.js", "PostgreSQL", "Stripe"],
+      "Predicts a person’s blood group by analyzing fingerprint patterns using deep learning, built with JavaScript and Python (Flask) for a fast and interactive experience.",
+    tech: ["Javascript", "Python", "Flask", "Deep Learning"],
     demo: "#",
-    github: "#",
+    github: "https://github.com/Saadjamshaid64/blood-group-prediction-using-fingerprint-analysis",
   },
   {
     title: "Task Management App",
@@ -26,29 +26,29 @@ const projects = [
     github: "#",
   },
   {
-    title: "Finance Dashboard",
+    title: "Hotel Dashboard",
     description:
       "Interactive analytics dashboard with real-time data visualization and financial reporting.",
-    tech: ["React", "D3.js", "Express", "MongoDB"],
+    tech: ["React", "Node.js", "Express", "Postgres", "REST API"],
     demo: "#",
-    github: "#",
+    github: "https://github.com/Saadjamshaid64/Hotel-Dashboard",
   },
-  {
-    title: "Social Media App",
-    description:
-      "A social platform with real-time messaging, posts, stories, and user engagement features.",
-    tech: ["React Native", "Firebase", "Redux", "Node.js"],
-    demo: "#",
-    github: "#",
-  },
-  {
-    title: "Portfolio CMS",
-    description:
-      "A headless CMS built for developers to manage and showcase their portfolio content.",
-    tech: ["Next.js", "Sanity", "Tailwind", "Vercel"],
-    demo: "#",
-    github: "#",
-  },
+  // {
+  //   title: "Social Media App",
+  //   description:
+  //     "A social platform with real-time messaging, posts, stories, and user engagement features.",
+  //   tech: ["React Native", "Firebase", "Redux", "Node.js"],
+  //   demo: "#",
+  //   github: "#",
+  // },
+  // {
+  //   title: "Portfolio CMS",
+  //   description:
+  //     "A headless CMS built for developers to manage and showcase their portfolio content.",
+  //   tech: ["Next.js", "Sanity", "Tailwind", "Vercel"],
+  //   demo: "#",
+  //   github: "#",
+  // },
 ];
 
 const Projects = () => {
@@ -90,13 +90,13 @@ const Projects = () => {
                   ))}
                 </div>
                 <div className="flex items-center gap-4">
-                  <a
+                  {/* <a
                     href={project.demo}
                     className="inline-flex items-center gap-1.5 text-sm font-medium text-primary hover:underline"
-                  >
-                    <ExternalLink size={14} />
+                  > */}
+                    {/* <ExternalLink size={14} />
                     Live Demo
-                  </a>
+                  </a> */}
                   <a
                     href={project.github}
                     className="inline-flex items-center gap-1.5 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"

@@ -7,17 +7,17 @@ const Footer = () => {
     <footer className="bg-hero text-hero-foreground py-10 px-4">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
         <p className="text-hero-muted text-sm">
-          © {new Date().getFullYear()} John Doe. All rights reserved.
+          © {new Date().getFullYear()} Saad Jamshaid. All rights reserved.
         </p>
 
         <div className="flex items-center gap-5">
-          <a href="#" className="text-hero-muted hover:text-primary transition-colors" aria-label="GitHub">
+          <a href="https://github.com/Saadjamshaid64" className="text-hero-muted hover:text-primary transition-colors" aria-label="GitHub">
             <Github size={20} />
           </a>
-          <a href="#" className="text-hero-muted hover:text-primary transition-colors" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/saadjamshaid64/" className="text-hero-muted hover:text-primary transition-colors" aria-label="LinkedIn">
             <Linkedin size={20} />
           </a>
-          <a href="#" className="text-hero-muted hover:text-primary transition-colors" aria-label="Twitter">
+          <a href="https://x.com/saadjamshaid64" className="text-hero-muted hover:text-primary transition-colors" aria-label="Twitter">
             <Twitter size={20} />
           </a>
         </div>

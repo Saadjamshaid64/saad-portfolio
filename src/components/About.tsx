@@ -1,9 +1,9 @@
-import profileImg from "@/assets/profile-avatar.jpg";
+import profileImg from "@/assets/saad-photo.jpg";
 import { Code2, Server, Palette } from "lucide-react";
 
 const highlights = [
-  { icon: Code2, label: "Frontend", desc: "React, TypeScript, Tailwind" },
-  { icon: Server, label: "Backend", desc: "Node.js, Python, PostgreSQL" },
+  { icon: Code2, label: "Frontend", desc: "React, TypeScript, Tailwind, Bootstrap" },
+  { icon: Server, label: "Backend", desc: "Node.js, Express.js, Python, PostgreSQL" },
   { icon: Palette, label: "Design", desc: "Figma, UI/UX, Responsive" },
 ];
 
@@ -18,7 +18,7 @@ const About = () => {
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-2xl overflow-hidden shadow-2xl">
                 <img
                   src={profileImg}
-                  alt="John Doe"
+                  alt="Saad Jamshaid"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -35,7 +35,7 @@ const About = () => {
               Building digital experiences that matter
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-4 animate-fade-up delay-200">
-              I'm a Full Stack Developer with 5+ years of experience building web
+              I'm a Full Stack Developer with 1+ years of experience building web
               applications. I specialize in creating performant, accessible, and
               visually compelling products using modern tools and frameworks.
             </p>

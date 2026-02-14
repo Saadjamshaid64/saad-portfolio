@@ -3,15 +3,21 @@ import { GraduationCap } from "lucide-react";
 const education = [
   {
     degree: "Bachelor of Science in Computer Science",
-    institute: "University of Technology",
-    year: "2016 – 2020",
-    coursework: ["Data Structures & Algorithms", "Software Engineering", "Database Systems", "Machine Learning"],
+    institute: "University of Management and Technology",
+    year: "2021 – 2025",
+    coursework: ["Data Structures & Algorithms", "Software Engineering", "Database Systems", "Machine Learning", "Cloud Computing"],
   },
   {
-    degree: "Full Stack Web Development Bootcamp",
-    institute: "CodeAcademy Pro",
-    year: "2020",
-    coursework: ["React & Node.js", "MongoDB", "REST APIs", "Agile Development"],
+    degree: "Introduction to Web Development with HTML, CSS, JavaScript",
+    institute: "IBM",
+    year: "2025",
+    coursework: ["HTML", "CSS", "JavaScript", "Agile Development"],
+  },
+  {
+    degree: "Introduction to Front-End Development",
+    institute: "Meta",
+    year: "2025",
+    coursework: ["HTML", "CSS", "Bootstrap", "JavaScript", "React", "UI"],
   },
 ];
 

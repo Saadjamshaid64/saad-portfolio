@@ -1,34 +1,34 @@
 import { Briefcase } from "lucide-react";
 
 const experiences = [
-  {
-    role: "Senior Full Stack Developer",
-    company: "TechCorp Inc.",
-    period: "Jan 2022 – Present",
-    points: [
-      "Led a team of 5 developers building a SaaS platform serving 10K+ users",
-      "Implemented CI/CD pipelines reducing deployment time by 60%",
-      "Architected microservices backend with Node.js and PostgreSQL",
-    ],
-  },
+  // {
+  //   role: "Senior Full Stack Developer",
+  //   company: "TechCorp Inc.",
+  //   period: "Jan 2022 – Present",
+  //   points: [
+  //     "Led a team of 5 developers building a SaaS platform serving 10K+ users",
+  //     "Implemented CI/CD pipelines reducing deployment time by 60%",
+  //     "Architected microservices backend with Node.js and PostgreSQL",
+  //   ],
+  // },
   {
     role: "Full Stack Developer",
-    company: "WebStudio Agency",
-    period: "Jun 2020 – Dec 2021",
+    company: "HawkLogix",
+    period: "Nov 2025 – Present",
     points: [
-      "Built 15+ client websites and web applications using React and Next.js",
-      "Integrated third-party APIs including Stripe, SendGrid, and Twilio",
-      "Mentored junior developers and conducted code reviews",
+      "Built interactive dashboards and data visualizations using Tailwind CSS and managed backend database interactions with Drizzle ORM",
+      "Integrated third-party APIs including Stripe, SendGrid, Pharmetika, and Twilio",
+      "Designed and implemented RESTful APIs, collaborated with cross-functional teams, and optimized application performance. Maintained code quality, version control, team collaboration, and CI/CD workflows",
     ],
   },
   {
-    role: "Frontend Developer Intern",
-    company: "StartupXYZ",
-    period: "Jan 2020 – May 2020",
+    role: "Full Stack Developer Intern",
+    company: "HawkLogix",
+    period: "Aug 2025 – Nov 2025",
     points: [
       "Developed responsive UI components using React and Tailwind CSS",
-      "Collaborated with designers to implement pixel-perfect interfaces",
-      "Improved Lighthouse performance scores by 35%",
+      "Designed and implemented RESTful APIs in Express.js to handle data processing, authentication, and integration with client-side applications.",
+      "Managed PostgreSQL with Sequelize ORM and Supabase, keeping code clean via Git and GitHub",
     ],
   },
 ];

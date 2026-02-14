@@ -29,7 +29,7 @@ const Navbar = () => {
     >
       <div className="max-w-6xl mx-auto px-4 md:px-8 flex items-center justify-between h-16">
         <a href="#" className="font-display text-xl font-bold text-gradient">
-          JD
+          SJ
         </a>
 
         {/* Desktop */}
