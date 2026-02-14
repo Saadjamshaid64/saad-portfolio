@@ -1,13 +1,18 @@
 import { useState } from "react";
 import { Mail, MapPin, Send } from "lucide-react";
+import { useToast } from "@/hooks/use-toast";
 
 const Contact = () => {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
+  const { toast } = useToast();
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // placeholder
-    alert("Thanks for reaching out! I'll get back to you soon.");
+    toast({
+      title: "Message Sent!",
+      description: "Thanks for reaching out! I'll get back to you soon.",
+    });
     setForm({ name: "", email: "", message: "" });
   };
 
