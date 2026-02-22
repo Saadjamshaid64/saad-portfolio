@@ -24,10 +24,10 @@ Follow these steps:
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
-git clone [https://github.com/Saadjamshaid64/gentle-display-space]
+git clone [[https://github.com/Saadjamshaid64/gentle-display-space](https://github.com/Saadjamshaid64/saad-portfolio.git)]
 
 # Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+cd <saad-portfolio>
 
 # Step 3: Install the necessary dependencies.
 npm i
