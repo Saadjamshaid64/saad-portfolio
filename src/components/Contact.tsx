@@ -1,9 +1,10 @@
 import { useState } from "react";
 import { Mail, MapPin, Send } from "lucide-react";
-import { useToast } from "@/hooks/use-toast";
+import {useToast} from "@/hooks/use-toast";
 
 const Contact = () => {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
+
   const { toast } = useToast();
 
   const handleSubmit = (e: React.FormEvent) => {
