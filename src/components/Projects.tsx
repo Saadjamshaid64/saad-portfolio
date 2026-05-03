@@ -2,33 +2,47 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
+    title:
+      "Premium Hormone - Healthcare Management & Patient Engagement Platform",
+    description:
+      "Multi-tenant healthcare platform with role-based access, patient management, appointments, and billing workflows. Built with React (TypeScript), Node.js/Express, Socket.io, and PostgreSQL with secure JWT authentication.",
+    tech: [
+      "React (TypeScript, Context API)",
+      "Node.js",
+      "Express",
+      "PostgreSQL",
+      "Socket.io",
+      "React Query",
+    ],
+    demo: "#",
+    github: "#",
+  },
+  {
+    title: "Point of Sale (POS) System",
+    description:
+      "Contributed to a scalable Electron-based POS desktop app for dine-in, takeaway, and delivery workflows with full order lifecycle management. Built React (TypeScript) frontend with REST APIs, React Query, and Zustand, implementing core features like table management, KOT system, multi-payment checkout, real-time tracking, and printer integration.",
+    tech: [
+      "Electron.js",
+      "React (TypeScript, Zustand)",
+      "React Query",
+      "REST APIs",
+    ],
+    demo: "#",
+    github: "#",
+  },
+  {
     title: "Blood Group Prediction using Finger Print Analysis",
     description:
-      "Predicts a person’s blood group by analyzing fingerprint patterns using deep learning, built with JavaScript and Python (Flask) for a fast and interactive experience.",
+      "An AI-based system that predicts a person’s blood group by analyzing fingerprint patterns using deep learning techniques. The project combines a Python (Flask) backend with a JavaScript frontend to provide a fast, interactive, and user-friendly experience, focusing on accurate pattern recognition and real-time predictions.",
     tech: ["Javascript", "Python", "Flask", "Deep Learning"],
     demo: "#",
-    github: "https://github.com/Saadjamshaid64/blood-group-prediction-using-fingerprint-analysis",
-  },
-  {
-    title: "Task Management App",
-    description:
-      "Real-time collaborative project management tool with drag-and-drop boards and team features.",
-    tech: ["Next.js", "TypeScript", "Prisma", "WebSocket"],
-    demo: "#",
-    github: "#",
-  },
-  {
-    title: "AI Content Generator",
-    description:
-      "An AI-powered platform for generating marketing copy, blog posts, and social media content.",
-    tech: ["React", "Python", "OpenAI", "FastAPI"],
-    demo: "#",
-    github: "#",
+    github:
+      "https://github.com/Saadjamshaid64/blood-group-prediction-using-fingerprint-analysis",
   },
   {
     title: "Hotel Dashboard",
     description:
-      "Interactive analytics dashboard with real-time data visualization and financial reporting.",
+      "An interactive hotel analytics dashboard that provides real-time data visualization and financial reporting. It helps monitor bookings, revenue trends, and operational performance using dynamic charts and REST API integration. Built with React for the frontend and Node.js/Express with PostgreSQL for efficient backend data handling.",
     tech: ["React", "Node.js", "Express", "Postgres", "REST API"],
     demo: "#",
     github: "https://github.com/Saadjamshaid64/Hotel-Dashboard",
@@ -94,13 +108,15 @@ const Projects = () => {
                     href={project.demo}
                     className="inline-flex items-center gap-1.5 text-sm font-medium text-primary hover:underline"
                   > */}
-                    {/* <ExternalLink size={14} />
+                  {/* <ExternalLink size={14} />
                     Live Demo
                   </a> */}
                   <a
                     href={project.github}
                     className="inline-flex items-center gap-1.5 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+                    target="_blank"
                   >
+                    
                     <Github size={14} />
                     Source
                   </a>

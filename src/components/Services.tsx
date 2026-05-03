@@ -1,12 +1,44 @@
-import { Globe, Server, Palette, Smartphone, Database, Zap } from "lucide-react";
+import {
+  Globe,
+  Server,
+  Palette,
+  Smartphone,
+  Database,
+  Zap,
+} from "lucide-react";
 
 const services = [
-  { icon: Globe, title: "Web Development", desc: "Custom websites and web applications built with modern frameworks and best practices." },
-  { icon: Server, title: "API Development", desc: "Scalable RESTful and GraphQL APIs with robust authentication and documentation." },
-  { icon: Palette, title: "UI/UX Design", desc: "Intuitive, accessible interfaces designed with user experience as the priority." },
-  { icon: Smartphone, title: "Mobile Development", desc: "Cross-platform mobile apps using React Native for iOS and Android." },
-  { icon: Database, title: "Database Design", desc: "Efficient database architecture, optimization, and migration strategies." },
-  { icon: Zap, title: "Performance Optimization", desc: "Speed audits, code splitting, caching strategies for faster load times." },
+  {
+    icon: Globe,
+    title: "Web Development",
+    desc: "Building responsive websites and web applications using modern frameworks with clean code and best practices.",
+  },
+  {
+    icon: Server,
+    title: "API Development",
+    desc: "Scalable RESTful APIs with PostgreSQL, secure authentication, and well-documented backend architecture.",
+  },
+  {
+    icon: Palette,
+    title: "Desktop App Development",
+    desc: "Developing scalable and high-performance desktop applications using Electron with modern UI design, smooth user experience, and optimized system integration.",
+  },
+  {
+    icon: Smartphone,
+    title: "Mobile Development",
+    desc: "Cross-platform mobile applications using React Native for seamless iOS and Android experiences.",
+  },
+  {
+    icon: Database,
+    title: "Database Design",
+    desc: "Designing efficient and scalable database architectures with optimization and migration strategies.",
+  },
+
+  {
+    icon: Zap,
+    title: "Performance Optimization",
+    desc: "Improving application speed through code optimization, caching strategies, and performance audits.",
+  },
 ];
 
 const Services = () => {

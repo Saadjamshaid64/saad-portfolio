@@ -1,30 +1,30 @@
-import profileImg from "@/assets/saad-photo.jpg";
+// import profileImg from "@/assets/saad-photo.jpg";
 import { Code2, Server, Palette } from "lucide-react";
 
 const highlights = [
-  { icon: Code2, label: "Frontend", desc: "React, TypeScript, Tailwind, Bootstrap" },
-  { icon: Server, label: "Backend", desc: "Node.js, Express.js, Python, PostgreSQL" },
-  { icon: Palette, label: "Design", desc: "Figma, UI/UX, Responsive" },
+  { icon: Code2, label: "Frontend", desc: "React, Electron, TypeScript, Tailwind CSS, Bootstrap, Zustand, Redux, React Query" },
+  { icon: Server, label: "Backend", desc: "Node.js, Express.js, PostgreSQL, REST APIs, Authentication (JWT)" },
+  { icon: Server, label: "Tools & DevOps", desc: "Git, GitHub, Docker basics, CI/CD concepts, and deployment workflows for scalable applications." },
 ];
 
 const About = () => {
   return (
     <section id="about" className="section-padding bg-background">
       <div className="max-w-6xl mx-auto">
-        <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
+        {/* <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center"> */}
           {/* Image */}
-          <div className="flex justify-center animate-fade-up">
-            <div className="relative">
-              <div className="w-64 h-64 md:w-80 md:h-80 rounded-2xl overflow-hidden shadow-2xl">
-                <img
+          {/* <div className="flex justify-center animate-fade-up"> */}
+            {/* <div className="relative"> */}
+              {/* <div className="w-64 h-64 md:w-80 md:h-80 rounded-2xl overflow-hidden shadow-2xl"> */}
+                {/* <img
                   src={profileImg}
                   alt="Saad Jamshaid"
                   className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="absolute -bottom-4 -right-4 w-64 h-64 md:w-80 md:h-80 rounded-2xl border-2 border-primary/30 -z-10" />
-            </div>
-          </div>
+                /> */}
+              {/* </div> */}
+              {/* <div className="absolute -bottom-4 -right-4 w-64 h-64 md:w-80 md:h-80 rounded-2xl border-2 border-primary/30 -z-10" /> */}
+            {/* </div> */}
+          {/* </div> */}
 
           {/* Content */}
           <div>
@@ -57,7 +57,7 @@ const About = () => {
               ))}
             </div>
           </div>
-        </div>
+        {/* </div> */}
       </div>
     </section>
   );

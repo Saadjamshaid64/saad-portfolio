@@ -3,6 +3,8 @@ const skillCategories = [
     title: "Frontend",
     skills: [
       { name: "React", level: 95 },
+      { name: "React Native", level: 50 },
+      { name: "Electron", level: 95 },
       { name: "TypeScript", level: 90 },
       { name: "Tailwind CSS", level: 92 },
       { name: "HTML / CSS", level: 95 },
@@ -12,9 +14,11 @@ const skillCategories = [
     title: "Backend",
     skills: [
       { name: "Node.js", level: 88 },
-      { name: "Python / Django", level: 80 },
-      { name: "REST", level: 85 },
       { name: "Express.js", level: 87 },
+      { name: "REST APIs", level: 85 },
+      { name: "WebSockets / Socket.io", level: 85 },
+      { name: "Python / Django", level: 50 },
+      { name: "Firebase", level: 78 },
     ],
   },
   {
@@ -24,6 +28,7 @@ const skillCategories = [
       { name: "MSSQL", level: 82 },
       { name: "Redis", level: 75 },
       { name: "Firebase", level: 78 },
+      // { name: "Firebase", level: 78 },
     ],
   },
   {
@@ -33,6 +38,7 @@ const skillCategories = [
       { name: "Docker", level: 80 },
       { name: "AWS / Vercel", level: 78 },
       { name: "CI/CD", level: 76 },
+      { name: "Supabase", level: 82 },
     ],
   },
 ];
@@ -62,7 +68,9 @@ const Skills = () => {
                   <div key={skill.name}>
                     <div className="flex justify-between text-sm mb-1.5">
                       <span className="font-medium">{skill.name}</span>
-                      <span className="text-muted-foreground">{skill.level}%</span>
+                      <span className="text-muted-foreground">
+                        {skill.level}%
+                      </span>
                     </div>
                     <div className="w-full h-2 bg-secondary rounded-full overflow-hidden">
                       <div
