@@ -8,6 +8,7 @@ import Education from "@/components/Education";
 import Services from "@/components/Services";
 import Testimonials from "@/components/Testimonials";
 import Contact from "@/components/Contact";
+import { Helmet } from "react-helmet";
 import Footer from "@/components/Footer";
 
 const Index = () => {
