@@ -26,7 +26,7 @@ It is fully responsive and optimized for performance.
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
-git clone [[https://github.com/Saadjamshaid64/saad-portfolio.git](https://github.com/Saadjamshaid64/saad-portfolio.git)]
+git clone https://github.com/Saadjamshaid64/saad-portfolio.git
 
 # Step 2: Navigate to the project directory.
 cd <repo-name>
