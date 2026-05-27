@@ -64,6 +64,6 @@ You can deploy this project using:
 - Netlify
 - GitHub Pages
 
-- ## 🙌 Author
+## 🙌 Author
 Saad Jamshaid  
 Software Developer
