@@ -1,5 +1,3 @@
-# Welcome to the project
-
 ## Saad Portfolio 🚀
 A modern responsive personal portfolio built with React + Vite
 
