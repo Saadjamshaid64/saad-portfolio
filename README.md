@@ -22,19 +22,25 @@ It is fully responsive and optimized for performance.
 - Tailwind CSS
 - shadcn/ui
 
-## 📦 Installation
+## 📦 Installation Steps
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+### 1. Clone the repository
+```bash
 git clone https://github.com/Saadjamshaid64/saad-portfolio.git
+```
 
-# Step 2: Navigate to the project directory.
-cd <repo-name>
+### 2. Move into project directory
+```bash
+cd saad-portfolio
+```
 
-# Step 3: Install the necessary dependencies.
+### 3. Install dependencies
+```bash
 npm install
+```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### 4. Start development server
+```bash
 npm run dev
 ```
 
