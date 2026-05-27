@@ -1,8 +1,67 @@
 # Welcome to the project
 
-## Project info
+## Saad Portfolio 🚀
+A modern responsive personal portfolio built with React + Vite
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## 🌐 Live Demo
+[https://your-live-site.com](https://saad-portfolio-livid.vercel.app/)
+
+## 📌 About
+This is my personal portfolio website built to showcase my projects, skills, and experience.  
+It is fully responsive and optimized for performance.
+
+## ✨ Features
+- Responsive design (mobile + desktop)
+- Fast performance with Vite
+- Modern UI using shadcn components
+- Clean and reusable components
+- TypeScript support
+
+- ## 🛠 Tech Stack
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- shadcn/ui
+
+- ## 📦 Installation
+
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone [[https://github.com/Saadjamshaid64/gentle-display-space](https://github.com/Saadjamshaid64/saad-portfolio.git)]
+
+# Step 2: Navigate to the project directory.
+cd <repo-name>
+
+# Step 3: Install the necessary dependencies.
+npm install
+
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
+
+## 🚀 Build
+npm run build
+
+npm run preview
+
+## 📂 Folder Structure
+src/
+ ├── components/
+ ├── pages/
+ ├── assets/
+ ├── hooks/
+ └── main.tsx
+
+ ## 🌍 Deployment
+You can deploy this project using:
+- Vercel
+- Netlify
+- GitHub Pages
+
+- ## 🙌 Author
+Saad Jamshaid  
+Software Developer
 
 ## How can I edit this code?
 
@@ -35,39 +94,3 @@ npm i
 # Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
 ```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
