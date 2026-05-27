@@ -54,7 +54,7 @@ src/
 ├── assets/            # Images, icons, files
 ├── hooks/             # Custom React hooks
 ├── lib/               # Utility functions
-├── styles/            # Global styles (if any)
+├── test/              # Test setup, configuration & test cases
 └── main.tsx           # App entry point
 ```
 
