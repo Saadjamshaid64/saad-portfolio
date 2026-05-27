@@ -17,7 +17,7 @@ It is fully responsive and optimized for performance.
 - Clean and reusable components
 - TypeScript support
 
-- ## 🛠 Tech Stack
+## 🛠 Tech Stack
 - React
 - TypeScript
 - Vite
@@ -45,13 +45,18 @@ npm run build
 
 npm run preview
 
-## 📂 Folder Structure
+## 📂 Project Structure
+
+```bash
 src/
- ├── components/
- ├── pages/
- ├── assets/
- ├── hooks/
- └── main.tsx
+├── components/        # Reusable UI components
+├── pages/             # App pages / routes
+├── assets/            # Images, icons, files
+├── hooks/             # Custom React hooks
+├── lib/               # Utility functions
+├── styles/            # Global styles (if any)
+└── main.tsx           # App entry point
+```
 
  ## 🌍 Deployment
 You can deploy this project using:
