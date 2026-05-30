@@ -17,9 +17,6 @@ const Footer = () => {
           <a href="https://www.linkedin.com/in/saadjamshaid64/" className="text-hero-muted hover:text-primary transition-colors" aria-label="LinkedIn">
             <Linkedin size={20} />
           </a>
-          <a href="https://x.com/saadjamshaid64" className="text-hero-muted hover:text-primary transition-colors" aria-label="Twitter">
-            <Twitter size={20} />
-          </a>
         </div>
 
         <button
